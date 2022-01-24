@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+    width: 100%;
+    min-width: 1037px;
+    height: 44px;
+
+    background-color: rgba(0,0,0,0.8);
+
+    color: white;
+}
+
+nav ul {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: inline-block;
+
+    list-style: none;
+    font-size: 0;
+    height: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 .85rem;
+    height: 100%;
+    vertical-align: bottom;
+}
+
+nav ul li span{
+    font-size: 1.6rem;
+    line-height: 37px;
+}
+nav ul li span.mela {
+    font-size: 1rem;
+    vertical-align: top;
+}
+
+nav ul li span.lente{
+    display: inline-block;
+    transform: scale(-1, 1);
+}
+
+nav ul li a {
+    padding: 0 .5rem;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+    color: #bdbdbd;
+    display: inline-block;
+    line-height: 44px;
+    height: 100%;
+}
+
+nav ul li a:hover {
+    color: white;
+}  
+/* FINE NAV *//* FINE NAV *//* FINE NAV *//* FINE NAV *//* FINE NAV */
+
+
+
+
+
+
+/* MAIN *//* MAIN *//* MAIN *//* MAIN *//* MAIN *//* MAIN *//* MAIN */
+.blocco {
+    height: 73.8vh;
+    margin-bottom: .8rem;
+    position: relative;
+
+}
+
+.cover-1 {
+    background-image: url(../img/cover-1.jpg);
+    background-color: #fbfbfe;
+    background-position: bottom;
+    background-size: 1353px;
+    background-repeat: no-repeat;
+    margin-top: 44px;
+}
+
+.cover-2 {
+    background-image: url(../img/cover-2.jpg);
+    background-color: #33293c;
+    background-position: bottom;
+    background-size: 1353px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.cover-3 {
+    background-image: url(../img/cover-3.jpg);
+    background-color: #f4f4f6;
+    background-position: bottom;
+    background-size: 1353px;
+    background-repeat: no-repeat;
+}
+
+div.title-article {
+    text-align: center;
+}
+
+
+div.title-article h1 {
+    font-size: 3.3rem;
+    font-weight: 500;
+    padding-bottom: .3rem;
+    padding-top: 3.3rem;
+}
+
+.viola {
+    color: #5f2c62;
+}
+
+div.title-article span.sub-title {
+    font-size: 1.7rem;
+    display: block;
+    padding-bottom: .9rem;
+}
+.rosa {
+    color: #f3c3db;
+}
+
+.whatch{
+    padding-top: 5em;
+}
+
+div.title-article span.plus-article {
+    font-size: 1.3rem;
+    color: #007af5;
+    position: relative;
+    z-index: 90;
+}
+
+.plus-pad {
+    padding-left: 3rem;
+}
+
+.title-article a {
+    text-decoration: none;
+    color: #007af5;
+}
+
+.title-article  a:hover {
+    color: #007af5;
+    text-decoration: none;
+}
+
+.title-article a:hover span.plus-article{
+    text-decoration: underline;
+}
+
+.title-article a:hover span.plus-article-mezzo{
+    text-decoration: underline;
+}
+
+.title-article  a:hover span.freccia {
+    text-decoration: none;
+}
+
+a.link-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+/* MEZZO BLOCCO *//* MEZZO BLOCCO *//* MEZZO BLOCCO *//* MEZZO BLOCCO */
+
+main div.conteiner-mezzo-blocco {
+    margin: .8rem .8rem 0 .8rem;
+
+}
+main div.conteiner-mezzo-blocco::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+ div.mezzo-blocco {
+     position: relative;
+    float: left;
+    height: 62vh;
+    width: calc((100% - 1rem) / 2);
+    margin-bottom: 1rem;
+}
+
+.mezzo-blocco:nth-of-type(odd) {
+    margin-right: 1rem;
+
+}
+
+div.title-article span.plus-article-mezzo {
+    font-size: 1.1rem;
+    color: #007af5;
+    position: relative;
+    z-index: 90;
+}
+
+.sub-title-mezzo {
+    font-size: 1.4rem;
+    display: block;
+    padding: 5rem 7rem .9rem 7rem;
+}
+
+.sub-title-mezzo-valentino {
+    font-size: 1.3rem;
+    display: block;
+    padding-top: 3.8rem;
+    font-weight: 500;
+}
+
+div.title-article h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    padding-top: 3rem;
+    padding-bottom: .3rem;
+}
+
+div.title-article h2.valentino {
+    padding: 0 14rem;
+}
+
+.articolo-half1 {
+    background-image: url(../img/q-1.jpg);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+
+.articolo-half2 {
+    background-image: url(../img/q-2.jpg);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+
+.articolo-half3 {
+    background-image: url(../img/q-3.jpg);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+
+.articolo-half4 {
+    background-image: url(../img/q-4.jpg);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+
+.articolo-half5 {
+    background-image: url(../img/q-5.jpg);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.articolo-half6 {
+    background-image: url(../img/q-6.jpg);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+
+/* INIZIO FOOTER *//* INIZIO FOOTER *//* INIZIO FOOTER *//* INIZIO FOOTER */
+footer {
+    background-color: #f5f5f7;
+    color: #6e6e73;
+    font-size: 12px;
+} 
+
+.content-foot {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 1rem .7rem 0 .7rem;
+}
+div.content-foot p {
+    padding-bottom: 1rem ;
+}
